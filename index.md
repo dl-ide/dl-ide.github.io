@@ -2,122 +2,42 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+## Videos shown to participants
 
-[Link to another page](./another-page.html).
+### View 1 - Code:
+<div style="text-align: justify">
+Traditional coding method for implementing deep learning models.   As a common standard,  Microsoft Visual Studio Code is used as the Python IDE. The participants were allowed to use the DL library that they are most fluent with, among the following: Keras, Tensorflow, PyTorch, Caffe.
+</div>
+<video autoplay="autoplay" loop="loop" width="768" height="512">
+  <source src="/assets/videos/code_write.mp4" type="video/mp4">
+</video>
 
-There should be whitespace between paragraphs.
+### View 2 - Tabular:
+<div style="text-align: justify">
+Tabular way of designing a deep learning model, as shown in Figure 4.
+</div>
+<video autoplay="autoplay" loop="loop" width="768" height="512">
+  <source src="/assets/videos/tabular_column.mp4" type="video/mp4">
+</video>
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+<br/>
+<br/>
+## Task writeup given to participants
 
-# Header 1
+### Task #1:
+<div style="text-align: justify">
+Implementing a 13 layer deep convolutional neural network (CNN) model on ImageNet [15] image dataset with Conv2D, Pool2D, TanH, ReLU, Flatten, Dense, and Softmax as the set of unique layers.
+</div>
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+### Task #2:
+<div style="text-align: justify">
+Implementing a 16 layer deep convolutional neural network (CNN) model on CIFAR-10 [21] image dataset with Conv2D, Pool2D, ReLU, Flatten, Dense, and Softmax as the set of unique layers.
+</div>
 
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+### Task #3:
+<div style="text-align: justify">
+Implementing a 6 layer deep recurrent neural network (RNN) model on text classification dataset with Embedding, LSTM, Dense, and Softmax as the set of unique layers.
+</div>
+<br/>
+<br/>
+<iframe src="/assets/Task_Writeup.pdf" style="width:718px; height:700px;" frameborder="0"></iframe>
